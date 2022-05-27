@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Movies</title>
+</head>
+
+<body>
+    <nav class="bg-dark">
+        <p class="text-white p-3 h3 text-center">Movies</p>
+    </nav>
+    <div class="container mt-4 rounded movieClass" >
+        <div class="row justify-content-center" id="moviePage">
+        </div>
+    </div>
+    <div class="container mt-2 mb-3 rounded movieClass">
+        <div class="row justify-content-center" id="moviePage2">
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        movieDescription();
+    </script>
+</body>
+
+</html>
