@@ -68,7 +68,7 @@ const movieSelected = (id) => {
                     <p class="text-white ps-3">${movies.Plot}</p>
                 </div>
                 <div class="ms-4 mb-4 pt-2">
-                    <a class="links" href="http://imdb.com/title/${movies.imdbID}" target="_blank">Watch Imdb</a>
+                    <a class="links" href="http://imdb.com/title/${movies.imdbID}" target="_blank">Watch Movie</a>
                     <a class="links ms-3" href="index.html">Go Back to Search</a>
                 </div>
             `
